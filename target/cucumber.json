@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "#@Rango2"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2037951399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login_step_definition.BeforeRun()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "1 User should be able to login with valid credentials",
+        "description": "",
+        "id": "tf-login-functionality-test;1-user-should-be-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 858221500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Techfios login page",
+            "match": {
+              "location": "login_step_definition.user_is_on_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96256700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters password",
+            "match": {
+              "location": "login_step_definition.user_enters_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98924899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username",
+            "match": {
+              "location": "login_step_definition.user_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2024939100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Signin button",
+            "match": {
+              "location": "login_step_definition.user_clicks_on_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7310500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should land on Dashb oard page",
+            "match": {
+              "location": "login_step_definition.user_should_land_on_Dashb_oard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TF login functionality test",
+    "description": "",
+    "id": "tf-login-functionality-test",
+    "keyword": "Feature",
+    "uri": "features/login.feature"
+  }
+]
